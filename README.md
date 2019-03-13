@@ -1,9 +1,7 @@
 # OnlineDelphi
 
-Das Projekt OnlineDelphi umfasst die Umsetzung einer Plattform zur Durchführung von onlinebasierten Umfragen. Umfragen sollen dabei aus einer mySQL Datenbank geladen und Eingaben dort gespeichert werden. Hinzufügen und Editieren von Umfragen erfolgt durch direkten Zugriff auf die Datenbank, sowie auch das Auslesen der gespeicherten Umfragedaten. 
-Es sind verschiedene Frage-Typen zur Verfügung zu stellen (Multiple-Choice-Fragen, Dropdown, Bewertungsskalen kontinuierlich und diskret, Ranking, Priorisierung,  …). 
-Zwei Umfrage-Typen sollen zur Auswahl stehen: 
--	Delphi-Methode: Zweistufig. Erste Runde: Befragung. Zweite Runde: Befragung und graphische Darstellung der Antwort-Verteilungen aller Teilnehmer aus der vorherigen Runde.
--	Live-Umfrage: Nach Abschluss der Befragung, graphische Darstellung der Antwort-Verteilungen.
-Die Website soll auf einem Server des Uniklinikum Dresden gehosted werden und wird vom Zentrum für Evidenzbasierte Gesundheitsversorgung Dresden verwaltet.
-Inhalt der Beauftragung ist die Umsetzung der Plattform und die Übergabe des entsprechenden Quelltextes bzw. zugehörigen Dokumentation. 
+This project (OnlineDelphi) comprises the php implementation of a platform for conducting online-based live and delphi surveys. Surveys are loaded from a mySQL database and input is stored there. Adding and editing surveys is done by direct access to the database, as well as reading the stored survey data. Different question types are implemented (multiple-choice questions, dropdown selection, rating scales continuous and discrete, ranking). 
+
+There are two types of surveys to choose from: 
+- Delphi method: Two-level. First round: Survey. Second round: Survey and graphical representation of the response distributions of all participants from the previous round.
+- Live Survey: After completion of the survey, graphical representation of the response distributions.
